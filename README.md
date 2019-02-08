@@ -83,7 +83,7 @@ bash npm start
 ]
 ```
 
-##TODO:
+## TODO:
 - [ ] Use promises to wait for jQuery to load, or get rid of it
 - [ ] Make it less spaghetti, probably create helper functions
 - [ ] Create an HTML-output demo
