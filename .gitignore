@@ -1,2 +1,6 @@
-.idea/
-node_modules/
+### IDEA
+/.idea/
+/*.iml
+
+### NodeJS
+/node_modules/
