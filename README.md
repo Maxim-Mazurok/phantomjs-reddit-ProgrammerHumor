@@ -6,16 +6,16 @@ sort titles depending on likes and output as a JSON.
 
 ## Getting started
 1. Clone: 
-```
-bash git clone https://github.com/Maxim-Mazurok/phantomjs-reddit-programmer-humor-parser
+```bash
+git clone https://github.com/Maxim-Mazurok/phantomjs-reddit-programmer-humor-parser
 ```
 2. Install dependencies: 
-```
-bash cd phantomjs-reddit-programmer-humor-parser && npm install
+```bash
+cd phantomjs-reddit-programmer-humor-parser && npm install
 ```
 3. Run: 
-```
-bash npm start
+```bash
+npm start
 ```
 4. Example output:
 ```JSON
