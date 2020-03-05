@@ -10,6 +10,6 @@
   "author": "Maxim Mazurok <maxim@mazurok.com>",
   "license": "MIT",
   "dependencies": {
-    "phantom": "^6.0.3"
+    "phantom": "^6.3.0"
   }
 }
