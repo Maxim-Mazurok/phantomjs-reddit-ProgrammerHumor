@@ -4,6 +4,8 @@ using [PhantomJS](https://www.npmjs.com/package/phantom)
 in [NodeJS](https://nodejs.org/),
 sort titles depending on likes and output as a JSON.
 
+**Important**: PhantomJS development is suspended until further notice ([more details](https://github.com/ariya/phantomjs/issues/15344)).
+
 ## Getting started
 1. Clone: 
 ```bash
