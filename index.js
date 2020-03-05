@@ -26,7 +26,7 @@ phantom
                         // noinspection JSUnresolvedFunction
                         jQuery(".scrollerItem:not(.Blank)").each(function () {
                             // noinspection JSUnresolvedFunction
-                            const title = jQuery(this).find("h2").text();
+                            const title = jQuery(this).find("h1, h2, h3, h4, h5, h6").text();
                             // noinspection JSUnresolvedFunction, SpellCheckingInspection
                             const likes = jQuery(this).find("> div:first > div:first > div:first").text();
                             array.push({
@@ -70,7 +70,7 @@ phantom
         });
     })
     .then((array) => {
-        console.log(JSON.stringify(array));
+        console.log(JSON.stringify(array, null, 2));
 
         _page.close().then(() => {
             _phantom.exit();
